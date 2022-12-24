@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD42D0D029569D3800D84BA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42D0CF29569D3800D84BA5 /* AppDelegate.swift */; };
+		AD42D0D229569D3800D84BA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42D0D129569D3800D84BA5 /* SceneDelegate.swift */; };
+		AD42D0D429569D3800D84BA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42D0D329569D3800D84BA5 /* ViewController.swift */; };
+		AD42D0D729569D3800D84BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD42D0D529569D3800D84BA5 /* Main.storyboard */; };
+		AD42D0D929569D3900D84BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD42D0D829569D3900D84BA5 /* Assets.xcassets */; };
+		AD42D0DC29569D3900D84BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD42D0DA29569D3900D84BA5 /* LaunchScreen.storyboard */; };
+		AD42D0E729569D3900D84BA5 /* Location_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42D0E629569D3900D84BA5 /* Location_ClockTests.swift */; };
+		AD42D0F129569D3900D84BA5 /* Location_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42D0F029569D3900D84BA5 /* Location_ClockUITests.swift */; };
+		AD42D0F329569D3900D84BA5 /* Location_ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42D0F229569D3900D84BA5 /* Location_ClockUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD42D0E329569D3900D84BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD42D0C429569D3800D84BA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD42D0CB29569D3800D84BA5;
+			remoteInfo = Location_Clock;
+		};
+		AD42D0ED29569D3900D84BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD42D0C429569D3800D84BA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD42D0CB29569D3800D84BA5;
+			remoteInfo = Location_Clock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD42D0CC29569D3800D84BA5 /* Location_Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Location_Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42D0CF29569D3800D84BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD42D0D129569D3800D84BA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD42D0D329569D3800D84BA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD42D0D629569D3800D84BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD42D0D829569D3900D84BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD42D0DB29569D3900D84BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD42D0DD29569D3900D84BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD42D0E229569D3900D84BA5 /* Location_ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Location_ClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42D0E629569D3900D84BA5 /* Location_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_ClockTests.swift; sourceTree = "<group>"; };
+		AD42D0EC29569D3900D84BA5 /* Location_ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Location_ClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42D0F029569D3900D84BA5 /* Location_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_ClockUITests.swift; sourceTree = "<group>"; };
+		AD42D0F229569D3900D84BA5 /* Location_ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD42D0C929569D3800D84BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42D0DF29569D3900D84BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42D0E929569D3900D84BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD42D0C329569D3800D84BA5 = {
+			isa = PBXGroup;
+			children = (
+				AD42D0CE29569D3800D84BA5 /* Location_Clock */,
+				AD42D0E529569D3900D84BA5 /* Location_ClockTests */,
+				AD42D0EF29569D3900D84BA5 /* Location_ClockUITests */,
+				AD42D0CD29569D3800D84BA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD42D0CD29569D3800D84BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD42D0CC29569D3800D84BA5 /* Location_Clock.app */,
+				AD42D0E229569D3900D84BA5 /* Location_ClockTests.xctest */,
+				AD42D0EC29569D3900D84BA5 /* Location_ClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD42D0CE29569D3800D84BA5 /* Location_Clock */ = {
+			isa = PBXGroup;
+			children = (
+				AD42D0CF29569D3800D84BA5 /* AppDelegate.swift */,
+				AD42D0D129569D3800D84BA5 /* SceneDelegate.swift */,
+				AD42D0D329569D3800D84BA5 /* ViewController.swift */,
+				AD42D0D529569D3800D84BA5 /* Main.storyboard */,
+				AD42D0D829569D3900D84BA5 /* Assets.xcassets */,
+				AD42D0DA29569D3900D84BA5 /* LaunchScreen.storyboard */,
+				AD42D0DD29569D3900D84BA5 /* Info.plist */,
+			);
+			path = Location_Clock;
+			sourceTree = "<group>";
+		};
+		AD42D0E529569D3900D84BA5 /* Location_ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD42D0E629569D3900D84BA5 /* Location_ClockTests.swift */,
+			);
+			path = Location_ClockTests;
+			sourceTree = "<group>";
+		};
+		AD42D0EF29569D3900D84BA5 /* Location_ClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD42D0F029569D3900D84BA5 /* Location_ClockUITests.swift */,
+				AD42D0F229569D3900D84BA5 /* Location_ClockUITestsLaunchTests.swift */,
+			);
+			path = Location_ClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD42D0CB29569D3800D84BA5 /* Location_Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD42D0F629569D3900D84BA5 /* Build configuration list for PBXNativeTarget "Location_Clock" */;
+			buildPhases = (
+				AD42D0C829569D3800D84BA5 /* Sources */,
+				AD42D0C929569D3800D84BA5 /* Frameworks */,
+				AD42D0CA29569D3800D84BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Location_Clock;
+			productName = Location_Clock;
+			productReference = AD42D0CC29569D3800D84BA5 /* Location_Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD42D0E129569D3900D84BA5 /* Location_ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD42D0F929569D3900D84BA5 /* Build configuration list for PBXNativeTarget "Location_ClockTests" */;
+			buildPhases = (
+				AD42D0DE29569D3900D84BA5 /* Sources */,
+				AD42D0DF29569D3900D84BA5 /* Frameworks */,
+				AD42D0E029569D3900D84BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD42D0E429569D3900D84BA5 /* PBXTargetDependency */,
+			);
+			name = Location_ClockTests;
+			productName = Location_ClockTests;
+			productReference = AD42D0E229569D3900D84BA5 /* Location_ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD42D0EB29569D3900D84BA5 /* Location_ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD42D0FC29569D3900D84BA5 /* Build configuration list for PBXNativeTarget "Location_ClockUITests" */;
+			buildPhases = (
+				AD42D0E829569D3900D84BA5 /* Sources */,
+				AD42D0E929569D3900D84BA5 /* Frameworks */,
+				AD42D0EA29569D3900D84BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD42D0EE29569D3900D84BA5 /* PBXTargetDependency */,
+			);
+			name = Location_ClockUITests;
+			productName = Location_ClockUITests;
+			productReference = AD42D0EC29569D3900D84BA5 /* Location_ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD42D0C429569D3800D84BA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AD42D0CB29569D3800D84BA5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AD42D0E129569D3900D84BA5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AD42D0CB29569D3800D84BA5;
+					};
+					AD42D0EB29569D3900D84BA5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AD42D0CB29569D3800D84BA5;
+					};
+				};
+			};
+			buildConfigurationList = AD42D0C729569D3800D84BA5 /* Build configuration list for PBXProject "Location_Clock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD42D0C329569D3800D84BA5;
+			productRefGroup = AD42D0CD29569D3800D84BA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD42D0CB29569D3800D84BA5 /* Location_Clock */,
+				AD42D0E129569D3900D84BA5 /* Location_ClockTests */,
+				AD42D0EB29569D3900D84BA5 /* Location_ClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD42D0CA29569D3800D84BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42D0DC29569D3900D84BA5 /* LaunchScreen.storyboard in Resources */,
+				AD42D0D929569D3900D84BA5 /* Assets.xcassets in Resources */,
+				AD42D0D729569D3800D84BA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42D0E029569D3900D84BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42D0EA29569D3900D84BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD42D0C829569D3800D84BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42D0D429569D3800D84BA5 /* ViewController.swift in Sources */,
+				AD42D0D029569D3800D84BA5 /* AppDelegate.swift in Sources */,
+				AD42D0D229569D3800D84BA5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42D0DE29569D3900D84BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42D0E729569D3900D84BA5 /* Location_ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42D0E829569D3900D84BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42D0F329569D3900D84BA5 /* Location_ClockUITestsLaunchTests.swift in Sources */,
+				AD42D0F129569D3900D84BA5 /* Location_ClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD42D0E429569D3900D84BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD42D0CB29569D3800D84BA5 /* Location_Clock */;
+			targetProxy = AD42D0E329569D3900D84BA5 /* PBXContainerItemProxy */;
+		};
+		AD42D0EE29569D3900D84BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD42D0CB29569D3800D84BA5 /* Location_Clock */;
+			targetProxy = AD42D0ED29569D3900D84BA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD42D0D529569D3800D84BA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD42D0D629569D3800D84BA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD42D0DA29569D3900D84BA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD42D0DB29569D3900D84BA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD42D0F429569D3900D84BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD42D0F529569D3900D84BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD42D0F729569D3900D84BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Location_Clock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SailingCo.Location-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD42D0F829569D3900D84BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Location_Clock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SailingCo.Location-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD42D0FA29569D3900D84BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SailingCo.Location-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Location_Clock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Location_Clock";
+			};
+			name = Debug;
+		};
+		AD42D0FB29569D3900D84BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SailingCo.Location-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Location_Clock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Location_Clock";
+			};
+			name = Release;
+		};
+		AD42D0FD29569D3900D84BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SailingCo.Location-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Location_Clock;
+			};
+			name = Debug;
+		};
+		AD42D0FE29569D3900D84BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SailingCo.Location-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Location_Clock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD42D0C729569D3800D84BA5 /* Build configuration list for PBXProject "Location_Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42D0F429569D3900D84BA5 /* Debug */,
+				AD42D0F529569D3900D84BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD42D0F629569D3900D84BA5 /* Build configuration list for PBXNativeTarget "Location_Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42D0F729569D3900D84BA5 /* Debug */,
+				AD42D0F829569D3900D84BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD42D0F929569D3900D84BA5 /* Build configuration list for PBXNativeTarget "Location_ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42D0FA29569D3900D84BA5 /* Debug */,
+				AD42D0FB29569D3900D84BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD42D0FC29569D3900D84BA5 /* Build configuration list for PBXNativeTarget "Location_ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42D0FD29569D3900D84BA5 /* Debug */,
+				AD42D0FE29569D3900D84BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD42D0C429569D3800D84BA5 /* Project object */;
+}
